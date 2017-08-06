@@ -1,0 +1,22 @@
+{
+  "name": "test-cafe-demo",
+  "version": "1.0.0",
+  "description": "Demo Test Cafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/testcafe/bin/testcafe chrome test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iondrimba/test-cafe-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iondrimba/test-cafe-demo/issues"
+  },
+  "homepage": "https://github.com/iondrimba/test-cafe-demo#readme",
+  "devDependencies": {
+    "testcafe": "^0.17.0"
+  }
+}
