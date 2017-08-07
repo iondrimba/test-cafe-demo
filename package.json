@@ -4,7 +4,7 @@
   "description": "Demo Test Cafe",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/testcafe/bin/testcafe chrome test-getninjas.js"
+    "test": "node node_modules/testcafe/bin/testcafe chrome test/"
   },
   "repository": {
     "type": "git",

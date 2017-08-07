@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-fixture`Example page`
+fixture`Portfolio`
   .page`https://iondrimbafilho.me/`;
 
 test('Expect to navigate to about', async t => {

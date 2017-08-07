@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-fixture`Example page`
+fixture`Getninjas Categoria`
   .page`https://www.getninjas.com.br/design-e-tecnologia/desenvolvimento-de-sites-e-sistemas`;
 
 test('Checking title', async t => {
