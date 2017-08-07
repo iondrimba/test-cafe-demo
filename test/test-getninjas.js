@@ -9,8 +9,11 @@ test('Checking title', async t => {
 });
 
 test('Checking H1', async t => {
-  const h1 = Selector('.page-title');
-  await t.expect(h1.innerText).eql(`Os melhores Desenvolvedores de Sites.\nFaça um pedido. Receba orçamentos. Contrate o melhor.\n`);
+  const h1 = t.eval(() => {
+     const text = document.querySelector('.page-title').innerText;
+     return text.replace(/\n/g, '');
+  });
+  await t.expect(h1).eql(`Os melhores Desenvolvedores de Sites.Faça um pedido. Receba orçamentos. Contrate o melhor.`);
 });
 
 

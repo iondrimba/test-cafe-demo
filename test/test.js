@@ -18,7 +18,7 @@ test('About page to have class animate', async t => {
 
 
 test('Navigates to about page and click on close', async t => {
-  await t.navigateTo('/about');
+  await t.click('.link');
   await t.click('.close');
   const location = await t.eval(() => window.location);
   await t.expect(location.pathname).eql('/');
